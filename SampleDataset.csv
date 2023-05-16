@@ -1,0 +1,754 @@
+Sno,TECHNOLOGY,ORIGINAL/SYNONYM,QUESTION,SOLUTION
+1,PowerBI,Original,Issue with Power bi date slicer,"If you are experiencing an issue with the date slicer in Power BI, there could be several reasons why this is happening. Here are some common issues and their potential solutions:
+1. The date slicer is not filtering data correctly: This could be due to incorrect data type or formatting of the date column in the data source. To resolve this issue, check the data type of the date column and ensure that it matches the format of the date slicer.
+2. The date slicer is not displaying all the available dates: This could be due to the range of dates selected in the slicer. To resolve this issue, adjust the range of dates displayed in the slicer or increase the granularity of the slicer.
+3. The date slicer is not working at all: This could be due to a corrupted Power BI file or a bug in the Power BI software. To resolve this issue, try restarting Power BI or creating a new file and recreating the date slicer.
+4. The date slicer is not interacting with other visuals or filters: This could be due to the order of the visuals in the report page or incorrect interaction settings. To resolve this issue, adjust the order of the visuals or update the interaction settings to ensure that the date slicer is interacting with the desired visuals and filters.
+If the issue persists, you may need to consult with a Power BI expert or Microsoft Support for further assistance."
+2,PowerBI,Synonym,"What are some common issues that can arise with the date slicer in Power BI, and how can I troubleshoot them?",same as above
+3,PowerBI,Synonym ,"How do I resolve issues with the date slicer in Power BI when it is not 
+filtering data correctly or not displaying all available dates?",Same as above
+4,PowerBI,Synonym ,"I'm having trouble getting the date slicer in Power BI to work properly. Are 
+there any specific settings or configurations I should check to resolve the issue?",Same as above
+5,PowerBI,Synonym ,"What could be causing the date slicer in Power BI to malfunction, and what 
+steps can I take to fix it?",Same as above
+6,PowerBI,Synonym ,"Can you provide any guidance on troubleshooting problems with the date 
+slicer in Power BI, particularly when it comes to issues with filtering or interaction with other visuals and filters?",Same as above
+7,PowerBI,Original,The date slicer is not filtering data correctly,"If your Power BI date slicer is not filtering data correctly, here are some possible solutions to try:
+1. Check your data
+2. Check your date hierarchy: Verify that your date hierarchy is set up correctly. If your date slicer is not filtering data correctly, it could be because the date hierarchy is not set up correctly. In Power BI, you can set up a date hierarchy by right-clicking on the date field in your data model and selecting ""New Hierarchy.""
+3. Check your date slicer settings: Verify that the date slicer is set up correctly. Check the ""Filters"" pane to ensure that the slicer is set up to filter the correct data field.
+4. Check the date range: Verify that the date range selected in the date slicer is correct. If you are not seeing the expected data, it could be because the date range is incorrect or too narrow.
+5. Check your relationship between data tables: If your data model contains multiple tables, ensure that the tables are correctly related. Incorrect relationships between tables can cause data to be excluded or incorrectly filtered.
+6. Refresh your data
+7. Contact Microsoft Support"
+8,PowerBI,Synonym ,What should I do if my Power BI date slicer is not filtering data correctly?,Same as above
+9,PowerBI,Synonym ,How do I troubleshoot issues with my Power BI date slicer?,Same as above
+10,PowerBI,Synonym ,Why is my Power BI date slicer not filtering data as expected?,Same as above
+11,PowerBI,Synonym ,"What are the possible reasons for my Power BI date slicer not working 
+correctly?",Same as above
+12,PowerBI,Synonym ,How do I ensure that my Power BI date slicer is set up correctly?,Same as above
+13,PowerBI,Original,What are the solutions for resolving issues with B2C authentication environments when using the OData Connector in Power BI?,"Try the following solutions:
+1. Ensure that you have the correct authentication settings: Verify that you have the correct authentication settings for your B2C environment. This may include settings such as the tenant ID, client ID, and client secret.
+2. Check that the application is registered: Ensure that the application you are trying to access is registered in your B2C environment. You may need to register the application manually if it is not already registered.
+3. Confirm that the application has the appropriate permissions: Verify that the application has the appropriate permissions to access the data you are trying to retrieve via the OData Connector. This may require updating the application permissions in your B2C environment.
+4. Check that the user has the correct permissions: Ensure that the user account you are using to access the data has the correct permissions to access the data in the B2C environment.
+5. Try using the OData feed URL directly: If you continue to experience issues, try using the OData feed URL directly in your browser to confirm that you are able to access the data.
+6. Check that the OData Connector version is up to date
+7. Check for known issues or bugs: Check for any known issues or bugs related to B2C authentication environments and the OData Connector, and follow any recommended solutions or workarounds."
+14,PowerBI,synonym ,OData Connector - Issue with B2C Authentication Environments,Same as above
+15,PowerBI,Synonym ,"How can I fix issues with B2C authentication environments when using the 
+OData Connector in Power BI?",Same as above
+16,PowerBI,Synonym ,"What steps can I take to troubleshoot B2C authentication issues when using 
+the OData Connector in Power BI?",Same as above
+17,PowerBI,Synonym ,"Are there any known issues or bugs related to B2C authentication 
+environments and the OData Connector in Power BI, and how can I resolve them?",Same as above
+18,PowerBI,Synonym ,"How do I ensure that the OData Connector is compatible with B2C 
+authentication environments in Power BI?",Same as above
+19,PowerBI,Original,Unchanged Azure Dataflow Shows Validation Error On Flow Expression,"1. Check if the query you have used is valid.
+2. Check all the input fields within the dataflow transformation if there is any field highlighted in red.
+3. If above doesnt work, then delete and create a new dataflow and add your expressions or queries without any errors. Validate everytime you add any transformation to get a clear answer where you are making the error.
+4. Debug will not run if you have any invalid fields within the dataflow. There might be any expression field which is invalid and hence u r getting validation error."
+20,PowerBI,Synonym ,"Unmodified Azure Dataflow Displays a Validation Error for the Flow
+Expression",Same as above
+21,PowerBI,Synonym ,Unmodified Azure Data Stream shows validation error for stream expression,Same as above
+22,PowerBI,Synonym ,Unmodified Azure Dataflow shows a validation error for the flow expression,Same as above
+23,PowerBI,Synonym ,"The unchanged Azure dataflow displays a validation error on the flow
+expression",Same as above
+24,PowerBI,Synonym ,"The unaltered azure data stream displays a validation error on the 
+expression of the stream",Same as above
+25,PowerBI,Original,"Power BI Dataflow - Validating Queries - Extremely, Extremely, Extremely Slow","There are a few known limitations to using Enterprise Gateways and dataflows:
+1. Each dataflow may use only one gateway. As such, all queries should be configured using the same gateway.
+2. Changing the gateway impact the entire dataflow.
+3. If several gateways are needed, the best practice is to build several dataflows (one for each gateway) and use the compute or entity reference capabilities to unify the data.
+4. Dataflows are only supported using enterprise gateways. Personal gateways will not be available for selection in the drop down lists and settings screens.
+So it requires to assign an administator role of the gateway to others once you want them to add entities to the dataflow."
+26,PowerBI,Synonym ,Dataflows very very slow Validating Queries,Same as above
+27,PowerBI,Synonym ,"Validation of multiple DFs takes 20-30 minutes, but updating takes 4 minutes. Makes no sense to me at all. It would be nice if there was some intelligence behind it.",Same as above
+28,PowerBI,Synonym ,Dataflows are extremely sluggish while validating queries.,Same as above
+29,PowerBI,Synonym ,"I cannot do anything to my dataflows, either updating, disabling a query or
+creating a new dataflow, as it takes forever to validate and then falls over saying an error occurred. On top of that the dataflows aren't even refreshing unless at the crack of dawn!",Same as above
+30,PowerBI,Synonym ,"I'm experiencing terrible performance to save changes to a Dataflow. The 
+""Validating Queries"" process is taking forever and has already aborted twice.",Same as above
+31,PowerBI,Original,Power BI Data Load Hang and Message,"If you are experiencing a data load hang in Power BI, it may be due to a variety of factors such as connectivity issues, large data volumes, or performance problems with the source system.
+To diagnose the issue, you can check the following:
+1. Check the network connection and ensure that the data source is available and accessible.
+2. Check if there are any error messages or warnings in the Power BI error logs.
+3. Check if there are any performance issues with the data source or Power BI environment.
+4. Try reducing the data volume or optimizing the data source query to improve performance.
+If the issue persists, you may need to consult with a Power BI expert or Microsoft Support for further assistance."
+32,PowerBI,Synonym ,How do I troubleshoot data load hangs in Power BI? Are there any tools or resources I can use to help identify the root cause of the issue?,Same as above
+33,PowerBI,Synonym ,"Are there any common reasons for data load hangs in Power BI, and how 
+can I troubleshoot them?",Same as above
+34,PowerBI,Synonym ,"What are some possible causes of Power BI data load hangs, and how can 
+I resolve them?",Same as above
+35,PowerBI,Synonym ,"Can you provide any advice on resolving data load hangs in Power BI, 
+particularly when dealing with large data volumes or performance issues?",Same as above
+36,PowerBI,Synonym ,"I'm experiencing data load hangs in Power BI - what steps can I take to 
+diagnose and resolve the issue?",Same as above
+37,PowerBI,Original,"I've noticed that the calendar month and days in the Power BI date slicer 
+are being displayed in a language other than English, and it's causing some confusion. How can I adjust the language settings to fix this issue?","If my understanding is correct you are trying to embed the Power Bi in your angular application.
+In the embed configuration you can mention, Language and Locale setting.
+var embedConfig = {
+    ...
+    settings: {
+        localeSettings: {
+            language: ""en"",
+            formatLocale: ""en""
+        }
+    }
+};
+Or
+You could add &language=en and &formatlocale=en parameters to the embed URL
+https://powerbiembedurl&language=en&formatlocale=en"
+38,,Synonym ,"Why Power bi date slicer calendar month/days are showing different language other than English. it’s looks like Spanish language.
+",Same as above
+39,,Synonym ,Is there any way to change the language from Spanish to English language  in Power bi date slicer calendar month/days?,Same as above
+40,PowerBI,Synonym ,"I'm having an issue with the language settings in the Power BI date slicer - it's showing calendar month and days in a language other than English. What could be causing this, and how can I change it?",Same as above
+41,PowerBI,Synonym ,"Is there a way to ensure that the Power BI date slicer displays calendar 
+month and days in English, even if my computer or browser is set to a different language?",Same as above
+42,PowerBI,Synonym ,"Why is the Power BI date slicer displaying calendar month and days in a 
+different language other than English, such as Spanish, and how can I fix this?",Same as above
+43,PowerBI,Original,"Power BI embedded, direct query, not refreshing","If your Power BI embedded report with a direct query data source is not refreshing, there could be several reasons why this is happening. Here are some common issues and their potential solutions:
+1. The data source is not set up for automatic refresh: In order for the data to refresh in a direct query scenario, the data source must be set up for automatic refresh. Check the settings in the data source and ensure that automatic refresh is enabled.
+2. The refresh schedule is not set correctly: Even if automatic refresh is enabled, the refresh schedule may not be set correctly. Check the settings in the data source and ensure that the refresh schedule is set to a frequency that meets your needs.
+3. The report is not configured for automatic page refresh: If the report is not configured for automatic page refresh, you may need to manually refresh the page to see updated data. Configure the report for automatic page refresh to resolve this issue.
+4. There is a caching issue: In some cases, the data may be cached and not refreshing properly. Clear the cache in the browser or the Power BI service to see if this resolves the issue.
+5. There is a bug in the Power BI software: If none of the above solutions work, it is possible that there is a bug in the Power BI software. Check for any known issues or bugs with the version of Power BI you are using, and consider contacting Microsoft Support for further assistance.
+
+If the issue persists, you may need to consult with a Power BI expert or Microsoft Support for further assistance."
+44,PowerBI,Synonym ,How do I troubleshoot a Power BI embedded report with direct query data source that is not refreshing?,Same as above
+45,PowerBI,Synonym ,"I have a Power BI embedded report that is not updating with new data from 
+the direct query data source. What could be causing this issue, and how can I fix it?",Same as above
+46,PowerBI,Synonym ,"Why is my Power BI embedded report with direct query data source not 
+refreshing automatically, and what steps can I take to resolve this?",Same as above
+47,PowerBI,Synonym ,"Is there a way to ensure that my Power BI embedded report with a direct 
+query data source refreshes automatically, or do I need to manually refresh the page?",Same as above
+48,PowerBI,Synonym ,"How can I resolve a situation where my Power BI embedded report with 
+direct query data source is not refreshing properly, even though I've set up automatic refresh and configured the report for automatic page refresh?",Same as above
+49,PowerBI,Original,Issue publishing report to Power BI Workspace,"If you're having trouble publishing a Power BI report from the desktop application to your Power BI workspace in Azure, there are several things you can try to troubleshoot the issue:
+1. Check your workspace settings: Make sure that your Azure workspace is set up to receive reports published from the desktop application. Check the workspace settings to ensure that the ""Allow external guest users to edit content"" option is turned on.
+2. Check the report size: Large reports may take longer to publish or may exceed the size limit for your workspace. Check the size of your report and consider splitting it into smaller sections or reducing the size of visuals to speed up publishing.
+3. Try publishing from the web: If publishing from the desktop application continues to fail, try publishing the report from the Power BI web portal instead. This can help you identify whether the issue is specific to the desktop application.
+4. Update Power BI desktop
+5. Contact Microsoft Support: If none of the above solutions work, you may need to contact Microsoft Support for further assistance."
+50,PowerBI,Synonym ,"I created a report using Power BI desktop APP. Publishing the report from
+Desktop application doesn't publish report to PowerBI workspace in azure.",Same as above
+51,PowerBI,Synonym ,"I'm having an issue with publishing a Power BI report from the desktop 
+application to Azure. When I publish the report, it doesn't appear in my Power BI workspace. What could be causing this, and how can I fix it?",Same as above
+52,PowerBI,Synonym ,"How do I troubleshoot a situation where I've created a report using Power 
+BI desktop app, but when I try to publish it to my Power BI workspace in Azure, it doesn't appear?",Same as above
+53,PowerBI,Synonym ,"I'm trying to move a Power BI report from the desktop application to my 
+Azure workspace, but it's not working. How can I ensure that the report is successfully published to Azure?",Same as above
+54,PowerBI,Synonym ,"What are the common reasons why a Power BI report created in the 
+desktop application fails to publish to the Azure workspace, and what are some solutions to these issues?",Same as above
+55,PowerBI,Original,"I'm having trouble creating Pivot Columns in Power BI. What could be 
+causing the issue, and how can I fix it?","If you're experiencing issues with Pivot Columns in Power BI, there are several things you can try to troubleshoot the issue:
+1. Check your data
+2. Verify your Power Query settings: Pivot columns can be created using Power Query. Check your Power Query settings to ensure that you are properly defining the columns that you want to pivot.
+3. Check for errors: Look for any error messages that may be related to Pivot Columns. If you receive an error message, read it carefully to understand the nature of the issue.
+4. Refresh your data
+5. Use DAX: Pivot Columns can also be created using DAX. If you're having issues with Power Query, try creating your Pivot Columns using DAX instead.
+6. Update Power BI Desktop
+7. Contact Microsoft Support"
+56,PowerBI,Synonym ,What should I do if my Pivot Columns in Power BI are not working properly?,Same as above
+57,PowerBI,Synonym ,How can I troubleshoot issues with Pivot Columns in Power BI?,Same as above
+58,PowerBI,Synonym ,"What are the best practices for creating Pivot Columns in Power BI to avoid 
+common errors or issues?",Same as above
+59,PowerBI,Synonym ,"How do I resolve issues with Power Query when creating Pivot Columns in 
+Power BI?",Same as above
+60,PowerBI,Synonym ,"Are there any known bugs or limitations with Pivot Columns in Power BI that 
+I should be aware of?",Same as above
+61,PowerBI,Original,What resources are available to me if I am unable to resolve a SSL peer certificate or SSH remote key error when using an ODBC driver to connect to Snowflake from Power BI desktop?,"Here are some possible solutions to try:
+1. Check your SSL/TLS version: Verify that your SSL/TLS version is up-to-date and compatible with your ODBC driver version. You may need to update your SSL/TLS version or your ODBC driver to resolve this issue.
+2. Check your certificate: Verify that your SSL certificate is valid and properly configured. You may need to contact your Snowflake administrator to obtain a valid SSL certificate or update your current certificate.
+3. Verify your connection string: Check your ODBC connection string to ensure that it is correctly configured. Make sure that your Snowflake account and credentials are correctly specified.
+4. Check your network configuration: Verify that your network configuration is properly set up and that there are no issues with your firewall or network security settings.
+5. Verify your driver version: Ensure that you are using the latest version of your ODBC driver. You may need to upgrade your driver to resolve this issue.
+6. Check your Power BI version: Verify that you are using the latest version of Power BI desktop. You may need to upgrade to the latest version to resolve this issue.
+7. Contact Snowflake support"
+62,PowerBI,Synonym ,What steps can I take to troubleshoot a SSL peer certificate or SSH remote key error when connecting to Snowflake with an ODBC driver in Power BI desktop?,Same as above
+63,PowerBI,Synonym ,"I am using Power BI native connector for Snowflake. The snowflake account
+is a trial account . I am getting this CURL error . Has anybody been able to resolve the issue?",Same as above
+64,PowerBI,Synonym ,"How can I resolve a CURLerror 'SSL peer certificate or SSH remote key 
+was not OK' error when using an ODBC driver connection to Snowflake from PowerBI desktop?",Same as above
+65,PowerBI,Synonym ,"What are the possible causes of a SSL peer certificate or SSH remote key 
+error when using an ODBC driver to connect to Snowflake from Power BI desktop, and how can I fix it?",Same as above
+66,PowerBI,Synonym ,"Why am I receiving a CURLerror 'SSL peer certificate or SSH remote key 
+was not OK' error when attempting to use an ODBC driver to connect to Snowflake from Power BI desktop?",Same as above
+67,PowerBI,Original,Rest API credentials issues in power bi service,"To resolve Rest API credentials issues in Power BI service, try the following solutions:
+1. Verify API key: Double-check the API key to ensure it is correct and valid.
+2. Check access rights: Verify that you have the necessary access rights to use the Rest API.
+3. Obtain a new authorization token: If the authorization token has expired or become invalid, obtain a new token to authenticate the Rest API request.
+4. Check firewall or network settings: Ensure that the necessary ports are open and that any necessary security settings are properly configured to allow access to the Rest API.
+If you are still experiencing issues after trying these solutions, consider contacting the Rest API provider's support team or seeking further assistance from your organization's IT department."
+68,PowerBI,Synonym ,What are some common causes of Rest API credential issues in Power BI service and how can they be resolved?,Same as above
+69,PowerBI,Synonym ,How can I troubleshoot Rest API credential issues in Power BI service?,Same as above
+70,PowerBI,Synonym ,What are some potential solutions for resolving Rest API credential issues in Power BI service?,Same as above
+71,PowerBI,Synonym ,How can I fix Rest API credential errors in Power BI service?,Same as above
+72,PowerBI,Synonym ,"What steps can I take to ensure that my Rest API credentials are working 
+properly in Power BI service?",Same as above
+73,PowerBI,Original,"How do I check for network connectivity issues when connecting Power BI 
+to Azure SQL DB?","The Power BI - Azure SQL DB connection issue can occur due to various reasons. Here are some possible solutions:
+1. Check Azure SQL DB firewall settings: Ensure that the IP address of your Power BI service is added to the firewall settings of your Azure SQL DB.
+2. Check Azure SQL DB connection string: Verify that the connection string used in Power BI is correct and up-to-date. Make sure it includes the correct server name, database name, and authentication credentials.
+3. Check authentication method: Ensure that the authentication method used in Power BI matches the one set up for your Azure SQL DB. You can use either SQL Server Authentication or Azure Active Directory Authentication.
+4. Check Azure Active Directory permissions: If you are using Azure Active Directory Authentication, ensure that the user or service principal has sufficient permissions to access the Azure SQL DB.
+5. Check Power BI gateway: If you are using a Power BI gateway to connect to Azure SQL DB, ensure that the gateway is set up correctly and is running.
+6. Check network connectivity: Verify that there are no network connectivity issues between Power BI and Azure SQL DB. You can use tools such as Telnet to test the connectivity.
+7. Check Azure SQL DB service status: If none of the above solutions work, check the status of the Azure SQL DB service to see if there are any known issues."
+74,PowerBI,Synonym ,Are there any best practices to follow when connecting Power BI to Azure SQL DB to avoid connection issues?,Same as above
+75,PowerBI,Synonym ,"What are some possible solutions for resolving a Power BI - Azure SQL DB 
+connection issue?",Same as above
+76,PowerBI,Synonym ,"How can I ensure that my Power BI and Azure SQL DB are properly 
+connected?",Same as above
+77,PowerBI,Synonym ,"What are some common causes of Power BI - Azure SQL DB connection 
+issues, and how can they be resolved?",Same as above
+78,PowerBI,Synonym ,"How do I troubleshoot a connection issue between Power BI and Azure 
+SQL DB?",Same as above
+79,PowerBI,Original,"How can I fix a language issue in Power BI Report Server when the report is 
+not displaying in the desired language?","You can try the following solutions:
+1. Ensure that the desired language is set as the default language: Check that the desired language is set as the default language in the Report Server settings.
+2. Verify that the report has been created in the desired language: Ensure that the report has been created in the language that you want to view it in. If the report has been created in a different language, it may not display correctly.
+3. Check the language settings in the report: Verify that the language settings in the report are correct and match the desired language. This can be done by going to the ""Report Language Settings"" option in the ""File"" menu of the Power BI Desktop application.
+4. Ensure that the language pack is installed: Make sure that the language pack for the desired language is installed on the Report Server.
+5. Check the user's language preferences: If the report is still not displaying in the desired language, check that the user's language preferences are set to the desired language.
+6. Check the browser language settings: Verify that the browser language settings are set to the desired language. This can be done in the browser settings.
+7. Try clearing the browser cache"
+80,PowerBI,Synonym ,"What are the possible causes of a language issue in Power BI Report Server, and how can I troubleshoot and fix them?",Same as above
+81,PowerBI,Synonym ,"Are there any best practices for resolving language issues in Power BI 
+Report Server?",Same as above
+82,PowerBI,Synonym ,"How do I ensure that the language pack for the desired language is properly 
+installed on the Report Server?",Same as above
+83,PowerBI,Synonym ,"Are there any known issues or bugs related to language settings in Power BI
+Report Server, and if so, how can I work around them?",Same as above
+84,PowerBI,Synonym ,What steps can I take to check the user's language preferences in Power BI Report Server and ensure they are set to the desired language?,Same as above
+85,PowerBI,Original,How to resolve the Power BI API token issue in the Azure ADFS Setup?,"The reason this is not working is by default Azure AD will block ROPC flow for a Federated account. This flow only works if you are using a cloud account (onmicrosoft.com domain) for security reasons. If you need to authenticate with a Federated account, it's better if you use the ADAL library. We have an ADAL Java library here.
+https://github.com/AzureAD/azure-activedirectory-library-for-java/wiki/Acquiring-Tokens-with-username-and-password
+
+Also, please note that:-
+Microsoft recommends you do not use the ROPC flow. In most scenarios, more secure alternatives are available and recommended. This flow requires a very high degree of trust in the application, and carries risks which are not present in other flows. You should only use this flow when other more secure flows can't be used.
+
+Reference:
+https://github.com/MicrosoftDocs/azure-docs/issues/34108"
+86,PowerBI,Synonym ,"What steps can I take to resolve the Power BI API token issue in the 
+Azure ADFS setup?",Same as above
+87,PowerBI,Synonym ,"How can I troubleshoot the Power BI API token issue when using Azure 
+ADFS?",Same as above
+88,PowerBI,Synonym ,"What are the common causes of Power BI API token issue in the Azure 
+ADFS setup, and how can they be resolved?",Same as above
+89,PowerBI,Synonym ,How do I ensure that the Power BI API token is properly generated and has the necessary permissions in Azure ADFS?,Same as above
+90,PowerBI,Synonym ,"What are some potential network connectivity issues that can cause Power BI API token issues in the Azure ADFS setup, and how can they be resolved?",Same as above
+91,Azure Analysis Services,Original,Issues when importing Power BI modell to Azure Analysis Service,"Try the following solutions:
+1. Check for compatibility: Ensure that the version of the Power BI desktop application you used to create the model is compatible with Azure Analysis Services. You may need to upgrade your version of Power BI desktop or Azure Analysis Services to ensure compatibility.
+2. Verify data source credentials
+3. Check for missing dependencies
+4. Reduce model size: If you are experiencing issues with importing a large model, consider reducing the size of the model by removing any unnecessary tables or columns. This can help to reduce the amount of data that needs to be imported, which can improve performance and reduce the likelihood of errors.
+5. Check the compatibility level of the model: Ensure that the compatibility level of the model is set correctly. The compatibility level should match the version of Analysis Services that you are using.
+6. Check for any customizations: Verify that there are no customizations or extensions in the Power BI model that are not supported in Azure Analysis Services. You may need to remove any unsupported customizations before importing the model.
+7. Test the model before importing"
+92,Azure Analysis Services,Synonym ,What are some potential solutions to address issues that may arise when importing a Power BI model to Azure Analysis Services?,Same as above
+93,Azure Analysis Services,Synonym ,"How can I troubleshoot issues that occur when importing a Power BI model to 
+Azure Analysis Services?",Same as above
+94,Azure Analysis Services,Synonym ,"Are there any common issues that I should be aware of when importing a 
+Power BI model to Azure Analysis Services, and how can I address them?",Same as above
+95,Azure Analysis Services,Synonym ,"What steps can I take to ensure a successful import of my Power BI model 
+Into Azure Analysis Services?",Same as above
+96,Azure Analysis Services,Synonym ,How can I optimize the performance of my Power BI model when importing it  to Azure Analysis Services?,Same as above
+97,Azure Analysis Services,Original,Can you suggest any solutions for security issues in Azure Analysis Services?,"Here are some best practices that you can follow to address security issues in Azure Analysis Services:
+1. Implement Role-Based Access Control (RBAC): Use Azure Active Directory (Azure AD) to manage access to Azure Analysis Services by creating groups, roles, and users, and assigning permissions to specific objects.
+2. Secure communication: Make sure that SSL/TLS is enabled to encrypt communications between client and server, and use Azure Private Link or Azure Virtual Network to restrict access to the Azure Analysis Services instance.
+3. Monitor activity: Enable auditing and monitoring to detect suspicious activity and ensure compliance with regulatory requirements.
+4. Implement row-level security: Use row-level security (RLS) to restrict access to specific rows of data based on the user's role.
+5. Use Azure Key Vault: Store and manage encryption keys and secrets in Azure Key Vault to ensure that they are secure and not accessible to unauthorized users."
+98,Azure Analysis Services,Synonym ,How to address security issues in Azure Analysis Services?,Same as above
+99,Azure Analysis Services,Synonym ,What are the best practices for securing Azure Analysis Services?,Same as above
+100,Azure Analysis Services,Synonym ,Are there any tools or techniques to improve the security of Azure Analysis Services?,Same as above
+101,Azure Analysis Services,Synonym ,Can you provide any guidance on securing Azure Analysis Services?,Same as above
+102,Azure Analysis Services,Synonym ,How can I address security issues in Azure Analysis Services?,Same as above
+103,Azure Analysis Services,Original,I am experiencing issues when connecting Azure Analysis Services to my storage account. What steps should I take to resolve this issue?,"Here are some possible solutions:
+1. Ensure that the storage account is in the same region as your Azure Analysis Services instance. If they are in different regions, you may experience latency issues or connection errors.
+2. Make sure that the firewall settings of your storage account are properly configured to allow access from your Azure Analysis Services instance. You can do this by adding the IP address of the Analysis Services instance to the allowed IP address list in the firewall settings.
+3. Check that the connection string is correct and properly formatted. The connection string should include the name of the storage account, the access key, and the container name.
+4. Make sure that the storage account is properly configured to allow access using the access key. You can check this by ensuring that the access key is valid and has not expired.
+5. Check that the credentials used to connect to the storage account have the necessary permissions to access the container. You can do this by checking the access policies in the container settings.
+6. If you are using a virtual network (VNet) with your Azure Analysis Services instance, make sure that the VNet and the storage account are peered or connected via a VPN gateway.
+7. Try restarting both the Azure Analysis Services instance and the storage account to see if that resolves the connection issue."
+104,Azure Analysis Services,Synonym ,Azure Analysis services connection to storage account not working,Same as above
+105,Azure Analysis Services,Synonym ,"How do I troubleshoot connectivity issues between Azure Analysis Services 
+and my storage account?",Same as above
+106,Azure Analysis Services,Synonym ,"What are the common reasons why Azure Analysis Services cannot connect to 
+a storage account, and how can I fix them?",Same as above
+107,Azure Analysis Services,Synonym ,"How can I ensure that Azure Analysis Services can access my storage 
+account, and what should I do if there is a connection issue?",Same as above
+108,Azure Analysis Services,Synonym ,"What are the best practices for configuring Azure Analysis Services to connect 
+to a storage account, and how can I troubleshoot issues with the connection?",Same as above
+109,Azure Analysis Services,Original,"Looking for a performance monitoring tool for Azure Analysis Services, any recommendations?","You can use Metrics from portal that will give you detailed information. here is additional
+information on how to do - - - - > https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-monitor"
+110,Azure Analysis Services,Synonym ,Azure Analysis Services - Performance trace / issue,Same as above
+111,Azure Analysis Services,Synonym ,Is there a tool to monitor performance in Azure Analysis Services?,Same as above
+112,Azure Analysis Services,Synonym ,What tool can I use to monitor Azure Analysis Services performance?,Same as above
+113,Azure Analysis Services,Synonym ,"Need help monitoring performance in Azure Analysis Services, any 
+suggestions?",Same as above
+114,Azure Analysis Services,Synonym ,Suggestions for monitoring performance in Azure Analysis Services?,Same as above
+115,Azure Analysis Services,Original,"I was wondering, I have two cubes on my Azure Analysis Services with an estimated size of 4.8gb and 500mb (estimated in SSMS). So approximately 5.3gb on my server. But when I go to the metrics in Azure Analysis Services, and click on Memory, I see 9.8gb used. There is so a real gap between those two values.
+
+Any idea how the ""missing"" 4.5gb are used ?","Do you see this change while refreshing data on cubes?
+If yes, then it is usual behaviour of Azure Analysis services where while refreshing the cubes, 2.5 times is the total memory in use approximately until the complete cube is refreshed.
+
+The reason we got from experts is old data is still present in memory until the new one is not fully processed and stored."
+116,Azure Analysis Services,Synonym ,Memory used in Azure Analysis Services,Same as above
+117,Azure Analysis Services,Synonym ,"How is the memory used metric calculated in Azure Analysis Services, and 
+why might it be showing a value that's higher than the estimated size of my cubes?",Same as above
+118,Azure Analysis Services,Synonym ,"Can you help me understand why the memory used metric in Azure Analysis 
+Services is showing a value that's higher than the estimated size of my cubes?",Same as above
+119,Azure Analysis Services,Synonym ,"I'm seeing a discrepancy between the estimated size of my cubes and the 
+memory used metric in Azure Analysis Services. Can you explain why there's a difference and what could be causing it?",Same as above
+120,Azure Analysis Services,Synonym ,"I have two cubes on Azure Analysis Services with an estimated size of 4.8gb 
+and 500mb, but the memory used metric is showing 9.8gb. Is there an explanation for this difference?",Same as above
+121,Azure Analysis Services,Original,How do I get the size of my tabular model database in Azure Analysis Services?,"You can get the size of an Analysis Services database in Azure Analysis Services for a Tabular model by following these steps:-
+1. Go to the Azure portal and open your Analysis Services instance.
+2. In the left-hand menu, click on ""Databases"" to see a list of all databases in the instance.
+3. Select the database you want to check the size of.
+4. In the top menu, click on ""Metrics"".
+5. In the ""Metric Namespace"" dropdown, select ""Analysis Services Server"".
+6. In the ""Metric"" dropdown, select ""Database Size"".
+7. Set the time range for the metric you want to view.
+8. The ""Average"" value under ""Metric Value"" will show you the database size in bytes. You can convert this value to a more readable format, such as GB or TB, as needed.
+Alternatively, you can also use the XMLA endpoint to run a DISCOVER_XML_METADATA command to retrieve the size information for the database."
+122,Azure Analysis Services,Synonym ,"How we get analysis services database size in azure analysis services 
+Tabular model",Same as above
+123,Azure Analysis Services,Synonym ,"How can I determine the size of my Azure Analysis Services tabular model 
+database?",Same as above
+124,Azure Analysis Services,Synonym ,"Is there a way to check the database size of my Azure Analysis Services 
+tabular model?",Same as above
+125,Azure Analysis Services,Synonym ,"What is the process for obtaining the size of an Analysis Services tabular 
+model database in Azure?",Same as above
+126,Azure Analysis Services,Synonym ,"Can you tell me how to check the database size of a tabular model in Azure 
+Analysis Services?",Same as above
+127,Azure Analysis Services,Original,"I'm trying to deploy my tabular model to Azure Analysis services using Visual Studio 2019 but it is keep showing me error below:
+
+Cannot deploy metadata. Reason: An error occurred while connecting to the server.
+
+I have installed latest project extension in Visual Studio 19 but no changes. When I am trying to use Visual Studio 2017 deployment works. Can someone please help?","Here are some potential solutions:
+1. Make sure that you have the correct server name, user credentials, and database name in your connection string. Check that you can connect to the server using SQL Server Management Studio or another tool.
+2. Ensure that your firewall rules are set up correctly to allow traffic to and from the server. You can check the firewall settings in the Azure portal.
+3. Check that the Analysis Services service is running and that it is accessible from your machine. You can test this by connecting to the server using SQL Server Management Studio.
+4. Try deploying the model from Visual Studio 2019 on a different machine to see if the issue is related to your local environment.
+5. Check if there are any restrictions or limitations with the specific version of Visual Studio you are using. You may need to update to a later version or apply a hotfix.
+6. Try creating a new project in Visual Studio 2019 and copy over the contents of your existing project. This may help to resolve any configuration issues that are causing the error."
+128,Azure Analysis Services,Synonym ,Visual Studio 2019 Azure Analysis Services Tabular model deployment issue,Same as above
+129,Azure Analysis Services,Synonym ,"I'm facing an issue while deploying my tabular model to Azure Analysis 
+Services through Visual Studio 2019. The error message says ""Cannot deploy metadata. Reason: An error occurred while connecting to the server."" I have already installed the latest project extension in Visual Studio 2019. Can someone help me with this issue?",Same as above
+130,Azure Analysis Services,Synonym ,"I'm encountering an error while trying to deploy my tabular model to Azure 
+Analysis Services using Visual Studio 2019. The error message states that the deployment failed due to a connection issue with the server. I've already installed the latest project extension, but it still doesn't work. However, I was able to deploy successfully using Visual Studio 2017. Any ideas on how to solve this issue?",Same as above
+131,Azure Analysis Services,Synonym ,"I'm having trouble deploying my tabular model to Azure Analysis Services 
+through Visual Studio 2019. Whenever I try to deploy, I receive the following error message: ""Cannot deploy metadata. Reason: An error occurred while connecting to the server."" I have installed the latest project extension, but it doesn't seem to have made any difference. Interestingly, I was able to deploy without any issues using Visual Studio 2017. How can I resolve this problem?",Same as above
+132,Azure Analysis Services,Synonym ,"Tabular model deployment error with Visual Studio 2019 and Azure Analysis 
+Services.",Same as above
+133,Azure Analysis Services,Original,"Azure Analysis Service After Deployment with Import From Server (Tabular)
+have Duplicate Model",https://stackoverflow.com/a/69811295
+134,Azure Analysis Services,Synonym ,"How to deal with a duplicate model in Azure Analysis Services after deploying 
+with ""Import From Server"" (Tabular)?",Same as above
+135,Azure Analysis Services,Synonym ,"Why do I have a duplicate model in Azure Analysis Services after deploying 
+with ""Import From Server"" (Tabular)?",Same as above
+136,Azure Analysis Services,Synonym ,"What are the possible reasons for having a duplicate model in Azure Analysis 
+Services after deploying with ""Import From Server"" (Tabular)?",Same as above
+137,Azure Analysis Services,Synonym ,"How to troubleshoot and fix the issue of a duplicate model in Azure Analysis 
+Services after deploying with ""Import From Server"" (Tabular)?",Same as above
+138,Azure Analysis Services,Synonym ,"How to avoid duplicate models in Azure Analysis Service after deploying with 
+Import From Server (Tabular)?",Same as above
+139,Azure Analysis Services,Original,"How to build and deploy SSAS tabular from VSTS through CI/CD locally and
+to Azure Analysis services",https://stackoverflow.com/a/54791971
+140,Azure Analysis Services,Synonym ,Anyone has a better solution on how to deploy SSAS Tabular model locally and especially deploying to azure from build/release.,Same as above
+141,Azure Analysis Services,Synonym ,"What is the process for deploying SSAS tabular models from VSTS through 
+CI/CD to both local and Azure Analysis Services?",Same as above
+142,Azure Analysis Services,Synonym ,"How can I use CI/CD to automate the building and deployment of SSAS 
+tabular models from VSTS to local and Azure Analysis Services?",Same as above
+143,Azure Analysis Services,Synonym ,"Is it possible to implement CI/CD for SSAS tabular models in VSTS and deploy 
+them to both local and Azure Analysis Services?",Same as above
+144,Azure Analysis Services,Synonym ,"What are the steps to set up CI/CD for SSAS tabular models in VSTS and 
+deploy them to both local and Azure Analysis Services?",Same as above
+145,Azure Analysis Services,Original,"Whenever I run an SSIS package containing an Analysis Services Processing Task using a scheduled SQL Server job, it fails with an error message mentioning the OLAP storage engine and a measure group processing error. However, it runs without any issues when I run it manually. Can someone please help me figure out what's going on?","The SQL Server Agent service account may not have sufficient permissions. You can validate this by doing any of the following:
+1. Add the service account to the Administrators group on the analysis services server to validate this issue. Let the job run as scheduled.
+2. Create a proxy that runs under your credentials and set the job to execute under the proxy. Let the job run as scheduled.
+3. Change the SQL Server Agent to use your credentials. Let the job run as scheduled.
+If the job completes successfully after making any of the above changes, then you have a permission issue that you need to resolve."
+146,Azure Analysis Services,Synonym ,"I have a SQL Server job that runs an SSIS package containing an Analysis 
+Services Processing Task, but it fails when run by the SQL Server Agent. The error message mentions a problem with the OLAP storage engine and a measure group processing error. Any suggestions on how to fix this?",Same as above
+147,Azure Analysis Services,Synonym ,"What could be causing an Analysis Services Processing Task to fail when 
+executed via a SQL Server Job, even though it runs without errors when executed manually?",Same as above
+148,Azure Analysis Services,Synonym ,"My Analysis Services Processing Task in an SSIS package is failing when 
+executed by a scheduled SQL Server job, but it runs fine when I run it manually. The error message mentions an issue with the OLAP storage engine and a measure group. Can someone please help me troubleshoot this issue?",Same as above
+149,Azure Analysis Services,Synonym ,"Have you experienced any issues with an Analysis Services Processing Task 
+failing when executed through a SQL Server Job, but running without errors when executed manually?",Same as above
+150,Azure Analysis Services,Synonym ,"I am experiencing an issue with an SSIS package containing an Analysis 
+Services Processing Task failing when executed by a scheduled SQL Server job. The error message I receive references the OLAP storage engine and a measure group processing error. Any ideas on how to resolve this issue?",Same as above
+151,Azure Analysis Services,Original,How can I prevent locking conflicts and E_FAIL errors when querying an OLAP cube in Analysis Services that is being updated frequently through an SSIS package with a processing task?,"If you want to avoid this problem I suggest you process a copy of the cube on another instance or server and then synchronise the processed cube to the server queried by your application.
+This will prevent future locking problems and be invisible to the end user.
+OR
+https://stackoverflow.com/a/66989042"
+152,Azure Analysis Services,Synonym ,Is there a way to configure Analysis Services or SSIS package to prevent locking conflicts when updating a cube and querying it simultaneously?,Same as above
+153,Azure Analysis Services,Synonym ,"What can be done to prevent errors related to locking conflicts in Analysis 
+Services when processing a cube while a report application queries it?",Same as above
+154,Azure Analysis Services,Synonym ,"How can I avoid locking conflicts in Analysis Services when my report 
+application queries the cube during processing?",Same as above
+155,Azure Analysis Services,Synonym ,"What steps can I take to avoid locking conflicts and E_FAIL errors in Analysis 
+Services when my OLAP cube is being updated by an SSIS package with a processing task while my report application is querying the cube?",Same as above
+156,Azure Analysis Services,Synonym ,"How can I prevent locking conflicts and E_FAIL errors in my report application 
+when querying an Analysis Services cube that is being updated by an SSIS package every 10 minutes?",Same as above
+157,Azure Analysis Services,Original,What is the best way to execute a SSAS project as automated process?,"I would go the SSIS path, as you can easily log the SSAS messages e.g. to the msdb..sysssislog table. This is crucial for debugging and production support.
+
+I prefer to use one task that issues a Process Full command against the Database. This has less moving parts and will completely rollback on its own if there is an error.
+
+SSIS also has major advantages as a platform e.g. control flow, configuration, deployment, source control."
+158,Azure Analysis Services,Synonym ,What are some options for automating the execution of SSAS projects?,Same as above
+159,Azure Analysis Services,Synonym ,How can I automate the execution of a SSAS project?,Same as above
+160,Azure Analysis Services,Synonym ,What is the recommended method to run a SSAS project automatically?,Same as above
+161,Azure Analysis Services,Synonym ,How do I set up scheduled execution of a SSAS project?,Same as above
+162,Azure Analysis Services,Synonym ,Is there a way to execute a SSAS project without manual intervention?,Same as above
+163,Azure Analysis Services,Original,"Are there any solutions to address the problem of several performance rules 
+not working with my SSAS instances?","To troubleshoot the issue, you can try the following steps:
+1. Check the compatibility of the performance rule with your SSAS version.
+2. Check the permissions of the user account used to run the PBI ASWL feature.
+3. Check the configuration of your SSAS instance.
+4. Check the network connectivity of your SSAS instance."
+164,Azure Analysis Services,Synonym ,"How can I troubleshoot performance issues with my SSAS instances when 
+several performance rules don't work?",Same as above
+165,Azure Analysis Services,Synonym ,"Why are some performance rules not effective in identifying issues with my 
+SSAS instances, and how can I resolve this?",Same as above
+166,Azure Analysis Services,Synonym ,why several performance rules don't work with SSAS instances?,Same as above
+167,Azure Analysis Services,Synonym ,"How to overcome the performance issues with my SSAS instances when 
+several performance rules don't work",Same as above
+168,Azure Analysis Services,Synonym ,What can be done to address performance issues with SSAS instances when certain performance rules are not providing effective insights into the problem?,Same as above
+169,Azure Analysis Services,Original,"I am facing authentication errors in Azure Analysis Services, what can I do to resolve them?","Here are some possible solutions:
+1. Check if the Azure Analysis Services instance is properly configured to use the correct Azure Active Directory tenant and application.
+2. Ensure that the Azure Active Directory application has the necessary permissions to access the Azure Analysis Services instance.
+3. Check if the Azure Active Directory application has been properly registered in the Azure portal.
+4. Verify that the user attempting to connect has been granted the necessary permissions to access the Azure Analysis Services instance.
+5. Ensure that the connection string used to connect to Azure Analysis Services includes the correct Azure Active Directory credentials and authentication method.
+6. If using a custom Active Directory domain, ensure that the domain is properly configured in Azure Active Directory.
+7. Check if there are any firewall or network issues that are preventing the connection to Azure Analysis Services.
+8. Ensure that the user attempting to connect has the necessary permissions to access any underlying data sources used by Azure Analysis Services."
+170,Azure Analysis Services,Synonym ,How can I fix authentication errors in Azure Analysis Services?,Same as above
+171,Azure Analysis Services,Synonym ,What are the solutions for Azure Analysis Services authentication errors?,Same as above
+172,Azure Analysis Services,Synonym ,How to troubleshoot authentication issues in Azure Analysis Services?,Same as above
+173,Azure Analysis Services,Synonym ,"What could be causing authentication errors in Azure Analysis Services and 
+how to fix them?",Same as above
+174,Azure Analysis Services,Synonym ,Solution for authentication errors in Azure analysis services?,Same as above
+175,Azure Analysis Services,Original,Not able to connect to Azure Analysis Service instance from SSMS/VS/PowerBI desktop,https://stackoverflow.com/a/40413916
+176,Azure Analysis Services,Synonym ,"Why am I unable to connect to my Azure Analysis Service instance from SSMS, VS, or PowerBI Desktop?",Same as above
+177,Azure Analysis Services,Synonym ,"What could be causing my inability to connect to Azure Analysis Service 
+instance using SSMS, VS, or PowerBI Desktop, and how can I fix it?",Same as above
+178,Azure Analysis Services,Synonym ,"I am encountering connection errors when trying to connect to Azure Analysis 
+Service instance using SSMS, VS, or PowerBI Desktop. What are some possible solutions?",Same as above
+179,Azure Analysis Services,Synonym ,"How do I troubleshoot connection issues when trying to connect to an Azure 
+Analysis Service instance from SSMS, VS, or PowerBI Desktop?",Same as above
+180,Azure Analysis Services,Synonym ,"What steps can I take to ensure successful connection to Azure Analysis 
+Service instance using SSMS, VS, or PowerBI Desktop, and how can I resolve connection issues?",Same as above
+1,Azure Data Factory,Original,"I am failing to launch the data gateway express setup from Azure 
+Classic Portal, help me in solving it","1. Switch to Internet Explorer if you fails with other browsers.
+ Or
+
+2. Use the ""Manual Setup"" links shown on the same blade in the portal to do 
+the installation, and then copy the Key that is provided on the screen, and 
+paste when the Data Management Gateway configuration is ready. If it doesn't 
+launch, check your start menu for ""Microsoft Data Management Gateway"" 
+and paste in the key when it launches."
+2,Azure Data Factory,Synonym,"Please assist me in launching the data gateway express setup using
+ the Azure Classic Portal.",Same as the above
+3,Azure Data Factory,Synonym,"Failed to launch Data Gateway Express installation from Azure
+Classic portal please help me solve this",Same as the above
+4,Azure Data Factory,Synonym,Please assist me in launching the data gateway express setup using the Azure Classic Portal.,Same as the above
+5,Azure Data Factory,Synonym,"Kindly help me initiate the data gateway express configuration 
+through the Azure Classic Portal.",Same as the above
+6,Azure Data Factory,Synonym,"Please help me launch the Azure Classic Portal's data gateway 
+express configuration.",Same as the above
+7,Azure Data Factory,Original," I am getting error in PowerShell request fails with error 400 bad request ""No registered resource provider found...""","We recommend that you use the latest version of the ADF cmdlets, which are now part of the Azure PowerShell Download, such as the download from this URL: http://go.microsoft.com/?linkid=9811175&clcid=0x409"
+8,Azure Data Factory,Synonym,"I am encountering an issue in PowerShell as the request is unsuccessful with an error 400 bad request stating ""No registered resource provider found...""",Same as the above
+9,Azure Data Factory,Synonym,"I'm having trouble with PowerShell because the request failed with
+ the horrifying error code 400 that reads, ""No registered aid provider discovered...""",Same as the above
+10,Azure Data Factory,Synonym,"I'm having bother with PowerShell due to the fact the request failed with the horrifying error code 400 that reads, ""No registered useful resource issuer discovered...""",Same as the above
+11,Azure Data Factory,Synonym,"I am experiencing a problem with PowerShell because the request is failing with an error 400 bad request that reads, ""No registered resource provider found...""",Same as the above
+12,Azure Data Factory,Synonym,"Facing a problem with PowerShell as the query is unsuccessful
+ and displaying a 400 bad request error notification that reads, 
+""Resource provider not registered...""",Same as the above
+13,Azure Data Factory,Original,I Could not load resource while opening pipeline,The solution is to fix JSON files at first and then reopen the pipeline using Authoring tool.
+14,Azure Data Factory,Synonym,I Could no longer load useful resource while opening pipeline,Same as the above
+15,Azure Data Factory,Synonym,I am not able to load resource while opening pipeline,Same as the above
+16,Azure Data Factory,Synonym,I am no longer capable to load aid while opening pipeline,Same as the above
+17,Azure Data Factory,Synonym,I was unable to load assistance when initiating the pipeline.,Same as the above
+18,Azure Data Factory,Synonym,I couldn't initiate the pipeline as I couldn't load support.,Same as the above
+19,Azure Data Factory,Original,"Error ""Unable to find a Delivery Controller"" when you launch Citrix 
+Studio","To resolve this issue, start the Citrix Delegated Administration Service. If you have more than one Delivery Controllers in the site, make sure the service startup type is set to ' Automatic' and the service is ' Running' on all Delivery Controllers."
+20,Azure Data Factory,Synonym,"When I open Citrix Studio, an error message stating ""Delivery
+Controller not found"" appears.",Same as the above
+21,Azure Data Factory,Synonym,"When I attempt to initiate Citrix Studio, an error message appears 
+stating ""Delivery Controller not found.""",Same as the above
+22,Azure Data Factory,Synonym,"When I initiate Citrix Studio, an error message stating ""Delivery 
+Controller not found"" is displayed.",Same as the above
+23,Azure Data Factory,Synonym,"Upon launching Citrix Studio, an error notification will appear
+ indicating that the Delivery Controller cannot be located.",Same as the above
+24,Azure Data Factory,Synonym,"A warning message stating that the Delivery Controller cannot be
+ found will show up when Citrix Studio is launched.",Same as the above
+25,Azure Data Factory,Original,In Azure Databricks it had returned an Error code: 3200,"By default, the Azure Databricks access token is valid for 90 days.
+ Create a new token and update the linked service."
+26,Azure Data Factory,Synonym,An Error code: 3200 was produced in Azure Databricks.,Same as the above
+27,Azure Data Factory,Synonym,Azure Databricks issued an error with the code 3200.,Same as the above
+28,Azure Data Factory,Synonym,"The error code from Azure Databricks was 3200.Please help me in 
+solving it",Same as the above
+29,Azure Data Factory,Synonym,"Azure Databricks returned the 3200 error code. Please assist me in 
+resolving this",Same as the above
+30,Azure Data Factory,Synonym,"Azure Databricks back the 3200 error code. Please assist me in 
+resolving this",Same as the above
+31,Azure Data Factory,Original,Invalid Python file URI... Please visit Databricks user guide for supported URI schemes.,"Specify either absolute paths for workspace-addressing schemes, or dbfs:/folder/subfolder/foo.py for files stored in the Databricks File System (DFS).
+"
+32,Azure Data Factory,Synonym,"Invalid Python file URI... Please go to Databricks individual
+ information for supported URI schemes.",Same as the above
+33,Azure Data Factory,Synonym,"The Python file URI is not valid... Kindly refer to Databricks' 
+documentation for the list of URI schemes that are supported.",Same as the above
+34,Azure Data Factory,Synonym,The URI for the Python file is invalid... Please consult Databricks' documentation for a comprehensive list of supported URI schemes.,Same as the above
+35,Azure Data Factory,Synonym,"The Python file's URI is not valid... Kindly refer to Databricks' 
+documentation for a thorough compilation of supported URI schemes.",Same as the above
+36,Azure Data Factory,Synonym,"The URI for the Python file is invalid. For a comprehensive list of 
+supported URI schemes, please refer to the Databricks manual.",Same as the above
+37,Azure Data Factory,Original,"Could not parse request object: Expected 'key' and 'value' to be set for JSON map field base_parameters, got 'key: ""...""' instead.",Inspect the pipeline JSON and ensure all parameters in the baseParameters notebook specify a nonempty value.
+38,Azure Data Factory,Synonym,"Unable to interpret request object: Anticipated 'key' and 'value' to be arranged for JSON map field base_parameters, received 'key: ""...""' instead.",Same as the above
+39,Azure Data Factory,Synonym,"Parsing of request object failed: The JSON map field base_parameters is missing its 'key' and 'value' parameters and instead has 'key: ""...""' parameter.",Same as the above
+40,Azure Data Factory,Synonym,"The JSON map field base_parameters is missing its 'key' and 'value' parameters and instead has a 'key: '...""' parameter, which means that the request object's parsing failed.",Same as the above
+41,Azure Data Factory,Synonym,"The request object's parsing failed because the key and value parameters for the JSON map field base_parameters are missing, leaving only the key: parameter.",Same as the above
+42,Azure Data Factory,Synonym,"The parsing of the request object was unsuccessful as the JSON map field base_parameters lacks both the key and value parameters, resulting in only the presence of the key: parameter.",Same as the above
+43,Azure Data Factory,Original,"The cluster is in Terminated state, not available to receive jobs. 
+""Please fix the cluster or retry later.""
+","To avoid this error, use job clusters."
+44,Azure Data Factory,Synonym,"The group is currently in a state of termination and cannot receive any tasks. 
+""Kindly rectify the cluster or attempt again at a later time"".",Same as the above
+45,Azure Data Factory,Synonym,"The group is now terminated and unable to accept any tasks. 
+""Please fix the problem or try again at a later time.""",Same as the above
+46,Azure Data Factory,Synonym,"The team has been disbanded and is incapable of taking on any assignments.
+""Please fix the cluster or retry later.""",Same as the above
+47,Azure Data Factory,Synonym,"The team was disbanded and is no longer able to accept any tasks. 
+""Please fix the cluster or retry later.""",Same as the above
+48,Azure Data Factory,Synonym,"The team used to be disbanded and is no longer capable to accept any tasks.
+""Please fix the cluster or retry later.""",Same as the above
+49,Azure Data Factory,Original,"There were already 1000 jobs created in past 3600 seconds, exceedingrate limit: 1000 job creations per 3600 seconds.","Check all pipelines that use this Databricks workspace for their job creation rate.If pipelines launched too many Databricks runs in aggregate, migrate some 
+pipelines to a new workspace."
+50,Azure Data Factory,Synonym,"There have been already one thousand jobs created in past 3600 seconds, exceedingrate limit: one thousand job creations per 3600 seconds.",Same as the above
+51,Azure Data Factory,Synonym,"One thousand jobs have already been generated in the last 3600 seconds, exceeding the cap of one thousand jobs per 3600 seconds.",Same as the above
+52,Azure Data Factory,Synonym,"There had been already 1000 jobs created in past 3600 seconds, exceedingrate limit: 1000 job creations per 3600 seconds",Same as the above
+53,Azure Data Factory,Synonym,"The rate restriction of 1,000 jobs produced every 3600 seconds had already been exceeded in the previous 3600 seconds.",Same as the above
+54,Azure Data Factory,Synonym,"1000 jobs have already been generated in the last 3600 seconds, exceeding the cap of 1000 jobs per 3600 seconds.",Same as the above
+55,Azure Data Factory,Original,How can I schedule a pipeline?,"You can use the scheduler trigger or time window trigger to schedule a pipeline. The trigger uses a wall-clock calendar schedule, which can schedule pipelines periodically or in calendar-based recurrent patterns"
+56,Azure Data Factory,Synonym,How do I plan a pipeline?,Same as the above
+57,Azure Data Factory,Synonym,What is a pipeline schedule?,Same as the above
+58,Azure Data Factory,Synonym,How can a pipeline be scheduled?,Same as the above
+59,Azure Data Factory,Synonym,How might a pipeline be planned?,Same as the above
+60,Azure Data Factory,Synonym,How is a pipeline timetable made?,Same as the above
+61,Azure Data Factory,Original,"Hi, I am getting BadRequest error while running adf pipeline which contains data flow activity. It was running fine previously.","A BadRequest error in Azure Data Factory (ADF) can occur due to various reasons. Here are some steps you can try to troubleshoot and resolve the issue:
+
+1.Check the input and output schema of the mapping data flow activity. Make sure that the schema matches the source and sink data stores. If there are any changes in the schema, update the mapping data flow activity accordingly.
+2.Check the connection settings for the source and sink data stores. Make sure that the connection settings are correct and that the data stores are accessible."
+62,Azure Data Factory,Synonym,"Hello, I am encountering a BadRequest issue when executing ADF pipeline that comprises a data flow task. It was functioning properly in the past.",Same as the above
+63,Azure Data Factory,Synonym,"Hello, whenever I run an adf pipeline that includes data flow activities, I receive a BadRequest error. Before, everything worked smoothly.",Same as the above
+64,Azure Data Factory,Synonym,"Hi, I am getting BadRequest error while running adf pipeline which consists of facts drift activity. It used to be jogging great previously.",Same as the above
+65,Azure Data Factory,synonym,"When I attempt to execute an adf pipeline that has data flow activity, I receive a BadRequest error. Before, everything worked smoothly.",Same as the above
+66,Azure Data Factory,synonym,"While running an adf pipeline with data flow activity, I keep getting the BadRequest error. Before, it was functioning properly.",Same as the above
+67,Azure Data Factory,Original," I came across some strange issue. I created a pipeline to bulk load tables into the blob storage. In the Foreach container , copy activity dataset, I created two parameters schema and table, but when I click on the pipeline i can see only schema and not the table.","Try to delete the parameter in dataset and add again, and then commit/publish
+ the changes to the dataset. Then try to check copy activity. It might be the 
+issue with cache."
+68,Azure Data Factory,Synonym,"I encountered an unusual problem. I devised a pipeline to mass 
+upload tables into the blob storage. In the Foreach container, copy 
+activity dataset, I established two variables schema and table,
+ however, upon clicking on the pipeline, I am only able to view
+ schema and not the table.",Same as the above
+69,Azure Data Factory,Synonym,"I got into a peculiar problem. To bulk load tables into the blob storage, I made a pipeline. I created two parameters, a schema and a table, in the Foreach container, copy activity dataset, but when I click on the pipeline, I can only see the schema and not the table.",Same as the above
+70,Azure Data Factory,Synonym,"I got here across some extraordinary issue. I created a pipeline to bulk load tables into the blob storage. In the Foreach container , copy activity dataset, I created two parameters schema and table, however when I click on the pipeline i can see solely schema and not the table.",Same as the above
+71,Azure Data Factory,Synonym,"I got upon an odd problem. For the purpose of bulk loading tables into the blob storage, I made a pipeline. When I click on the pipeline, I can only see the schema and not the table that I built in the Foreach container, copy activity dataset.",Same as the above
+72,Azure Data Factory,Synonym,"I came across some atypical issue. I created a pipeline to bulk load tables into the blob storage. In the Foreach container , reproduction recreation dataset, I created two parameters schema and table, but when I click on on the pipeline i can see solely schema and not the table.",Same as the above
+73,Azure Data Factory,Original,"DUMMY1();
+
+DUMMY2(Message VARCHAR);
+
+I am able to call the one without arguments, but not able to call the one with parameters.
+
+I get the following error :
+
+ERROR [07002] [Microsoft][ODBC] (10690) Expected descriptor record does not exist during query execution.","CALL DUMMY('Welcome')
+CALL DUMMY(?) - created one script parameter"
+74,Azure Data Factory,Synonym,"DUMMY1();
+
+DUMMY2(Message VARCHAR);
+
+The one without arguments can be called, while the one with parameters cannot.
+I get the following error :
+
+ERROR [07002] [Microsoft][ODBC] (10690) Expected descriptor record does not exist during query execution.",Same as the above
+75,Azure Data Factory,Synonym,"I can call the method without arguments, but I can't call the method with parameters.
+The code as follows
+DUMMY1();
+
+DUMMY2(Message VARCHAR);
+I get the following error :
+
+ERROR [07002] [Microsoft][ODBC] (10690) Expected descriptor record does not exist during query execution.",Same as the above
+76,Azure Data Factory,Synonym,"DUMMY1();
+
+DUMMY2(Message VARCHAR);
+
+Although I am able to call the method without any parameters, I cannot do it with arguments.
+
+I get the following error :
+
+ERROR [07002] [Microsoft][ODBC] (10690) Expected descriptor record does not exist during query execution.",Same as the above
+77,Azure Data Factory,Synonym,"The method can be called, however I am unable to pass parameters when doing so.
+DUMMY1();
+
+DUMMY2(Message VARCHAR);
+
+I get the following error :
+
+ERROR [07002] [Microsoft][ODBC] (10690) Expected descriptor record does not exist during query execution.",Same as the above
+78,Azure Data Factory,Synonym,"I am able to call the method, but I am unable to call it with parameters.
+DUMMY1();
+
+DUMMY2(Message VARCHAR);
+
+I get the following error :
+
+ERROR [07002] [Microsoft][ODBC] (10690) Expected descriptor record does not exist during query execution.",Same as the above
+79,Azure Data Factory,Original,"I am getting an issue as
+Missing required field: settings.task.notebook_task.notebook_path.","Specify the notebook path in the Databricks activity.
+"
+80,Azure Data Factory,Synonym,"I am seeing a problem with 
+""Missing required field:"" settings.task.notebook_task.notebook_path.",Same as the above
+81,Azure Data Factory,Synonym,"Missing needed field: I'm experiencing a problem
+. settings.task.notebook_task.notebook_path.",Same as the above
+82,Azure Data Factory,Synonym,"This is a problem I'm having.
+ settings.task.notebook_task.notebook_path.",Same as the above
+83,Azure Data Factory,Synonym,"I am experiencing a problem with the message 
+""Missing needed field: settings.task.notebook_task.notebook_path.",Same as the above
+84,Azure Data Factory,Synonym,"Experiencing a problem with the message
+ ""Missing needed field: settings.task.notebook_task.notebook_path.",Same as the above
+85,Azure Data Factory,Original,"I am getting an issue as follows:
+User: SimpleUserContext{userId=..., name=user@company.com, orgId=...} is not authorized to access cluster.
+","Ensure the user has the required permissions in the workspace.
+"
+86,Azure Data Factory,Synonym,"I'm experiencing the following problem:
+User: SimpleUserContext is not authorised to access the cluster with the credentials user@company.com, userId=..., and orgId=…",Same as the above
+87,Azure Data Factory,Synonym,"I am having the following problem:
+User: SimpleUserContext is not authorised to enter cluster with the following credentials: userId=..., name=user@company.com, and orgId=…",Same as having above
+88,Azure Data Factory,Synonym,"Here's the problem I'm having:
+The user SimpleUserContext with the credentials userId=..., name=user@company.com, and orgId=... is not permitted to access the cluster.",Same as problem above
+89,Azure Data Factory,Synonym,"I'm experiencing the following problem:
+User: SimpleUserContext is not authorised to access the cluster with the credentials user@company.com, userId=..., and orgId=…",Same as the above
+90,Azure Data Factory,Synonym,"Currently, I'm having the following issue:
+With the credentials user@company.com, userId=..., and orgId=..., SimpleUserContext is not authorized to access the cluster.",Same as the above
+91,Azure Data Factory,Original,"The cluster is in Terminated state, not available to receive jobs. 
+Please fix the cluster or retry later."," To avoid this error, use job clusters."
+92,Azure Data Factory,Synonym,The cluster is not accepting jobs because it is in the terminated state. Attempt again later or fix the cluster.,same as the above
+93,Azure Data Factory,Synonym,"It is not possible to receive jobs since the cluster is in a terminated condition. The cluster has to be fixed, or try again later.",Same as the above
+94,Azure Data Factory,Synonym,"Due to the cluster's terminated state, receiving jobs is not possible. 
+Otherwise, try again later till the cluster is fixed.",Same as the above
+95,Azure Data Factory,Synonym,"Given that the cluster is ended, it is not able to receive jobs. 
+In order to continue, the cluster must be fixed.",same as the above
+96,Azure Data Factory,Synonym,"The cluster cannot accept work since it has ended. 
+The cluster needs to be fixed for the process to continue.",Same as the above
+97,Azure Data Factory,Original,"ADF pipeline failing to read CSV file if a column values contains
+ comma delimeter anlong with double quotes.","sample-data.txtI have a CSV file which is comma (,) separated and in a column
+ value (Column D) it contains comma delimiter(,) along with Double doutes as below. This was more ""confirming"" for me than ""enlightening."" I did…"
+98,Azure Data Factory,Synonym,Pipeline ADF unable to read a CSV file if a column's values include double quotes and a comma.,Same as the above
+99,Azure Data Factory,Synonym,"Linear ADF If a column value includes a comma delimeter together with double quotes, the CSV file won't read correctly.",Same as the above
+100,Azure Data Factory,Synonym,"pipeline for ADF If a column's values include double quotes and a comma, the CSV file won't read correctly.",Same as the above
+101,Azure Data Factory,Synonym,system for the ADF The CSV file won't read properly if a column contains double quotes and a comma in its values.,Same as the above
+102,Azure Data Factory,Synonym,ADF's pipeline The CSV file won't read properly if a column's values contain double quotes and a comma.,Same as the above
+103,Azure Data Factory,Original,"How to load updated tables records from OData source to azure
+ SQL server using Azure data factory","I have 5 OData source tables, having some number of rows data loaded into sink side with 5 tables output.i want same source side tables updated records to same sink tables"
+104,Azure Data Factory,Synonym,How to use Azure Data Factory to import updated table records from an OData source into an Azure SQL server,Same as the above
+105,Azure Data Factory,Synonym,"Using Azure Data Factory, how do I load updated table records from an OData source into a SQL server in Azure?",Same as the above
+106,Azure Data Factory,Synonym,How can I import updated table entries from an OData source into an Azure SQL server using Azure Data Factory?,Same as the above
+107,Azure Data Factory,Synonym,What is the procedure for importing updated table entries from an OData source into an Azure SQL server using Azure Data Factory?,Same as the above
+108,Azure Data Factory,Synonym,What steps are involved in importing updated table entries from an OData source using Azure Data Factory into an Azure SQL server?,Same as the above
+109,Azure Data Factory,Original,I am facing a connection failed error in Azure Data Factory Studio help me out with this,"Sometimes you might see a ""Connection failed"" error in Azure Data Factory Studio similar to the screenshot below, for example, after clicking Test Connection or Preview. It means the operation failed because your local machine couldn't connect to the ADF service."
+110,Azure Data Factory,Synonym,Please assist me with this as I am experiencing a connection failed error in Azure Data Factory Studio.,Same as the above
+111,Azure Data Factory,Synonym,Azure Data Factory Studio is giving me a connection failed error. Please help!,Same as the above
+112,Azure Data Factory,Synonym,My connection to Azure Data Factory Studio has failed. Please assist!,Same as the above
+113,Azure Data Factory,Synonym,I'm getting a connection failed issue in Azure Data Factory Studio. Kindly assist!,Same as the above
+114,Azure Data Factory,Synonym,"A connection failure error has shown in Azure Data Factory Studio. Help us, please!",Same as the above
+115,Azure Data Factory,Original,An error occurred when change linked service type warning message in datasets,"You might encounter the warning message below when you use a file format dataset in an activity, and later want to point to a linked service of a different type than what you used before in the activity (for example, from File System to Azure Data Lake Storage Gen2)."
+116,Azure Data Factory,Synonym,"When changing the associated service type warning message in datasets, an error happened.",Same as the above
+117,Azure Data Factory,Synonym,Change associated service type warning notice in datasets caused an error.,Same as the above
+118,Azure Data Factory,Synonym,"When warning message for linked service type change in datasets, an error happened.",Same as the above
+119,Azure Data Factory,Synonym,Change associated service type warning notice in datasets caused an error.,Same as the above
+120,Azure Data Factory,Synonym,Datasets error: Change associated service type warning notification.,Same as the above
+121,Azure Data Factory,Original,Error occurred : Could not load resource while opening pipeline,"When the user accesses a pipeline using Azure Data Factory Studio, an error message indicates, ""Could not load resource 'xxxxxx'. Ensure no mistakes in the JSON and that referenced resources exist. Status: TypeError: Cannot read property 'xxxxx' of undefined, Possible reason: TypeError: Cannot read property 'xxxxxxx' of undefined.""
+The source of the error message is JSON file that describes the pipeline. It happens when customer uses Git integration and pipeline JSON files get corrupted for some reason
+"
+122,Azure Data Factory,Synonym,"There was a mistake: When opening a pipeline, a resource could not be loaded.",Same as the above
+123,Azure Data Factory,Synonym,It went wrong: Having trouble loading resources while opening a pipeline,Same as the above
+124,Azure Data Factory,Synonym,A mistake happened: No resources could be loaded while the pipeline was open.,Same as the above
+125,Azure Data Factory,Synonym,There was a mistake Unable to load resource while opening pipeline,Same as the above
+126,Azure Data Factory,Synonym,"There was an error. When opening a pipeline, a resource could not be loaded.",Same as the above
+127,Azure Data Factory,Original,An Azure Functions app pipeline throws an error with private endpoint connectivity,Create a PrivateLinkService endpoint and provide your function app's DNS.
+128,Azure Data Factory,Synonym,A pipeline for an Azure Functions app fails due to a problem with private endpoint connectivity.,Same as the above
+129,Azure Data Factory,Synonym,A private endpoint connectivity fault occurs in an Azure Functions app pipeline.,Same as the above
+130,Azure Data Factory,Synonym,"With regard to private endpoint connectivity, an Azure Functions app pipeline fails.",Same as the above
+131,Azure Data Factory,Synonym,There is a private endpoint connectivity fault in an Azure Functions app pipeline.,Same as the above
+132,Azure Data Factory,Synonym,An Azure Functions app pipeline has a private endpoint connectivity issue.,Same as the above
+133,Azure Data Factory,Original,A pipeline run is canceled but the monitor still shows progress status,Refresh the browser and apply the correct monitoring filters.
+134,Azure Data Factory,Synonym,The monitor continuously displays progress status even when a pipeline run is cancelled.,Same as the above
+135,Azure Data Factory,Synonym,"Despite the monitor still displaying progress status, a pipeline run is cancelled.",Same as the above
+136,Azure Data Factory,Synonym,"Even though a pipeline run is cancelled, the monitor still displays progress status.",Same as the above
+137,Azure Data Factory,Synonym,The monitor still shows progress status even if a pipeline run has been cancelled.,Same as the above
+138,Azure Data Factory,Synonym,"Even if a pipeline run has been cancelled, the monitor still displays the current state of progress.",Same as the above
+139,Azure Data Factory,Original,"You see a ""DelimitedTextMoreColumnsThanDefined"" error when copying a pipeline","Select the Binary Copy option while creating the Copy activity. This way, for bulk copies or migrating your data from one data lake to another, Data Factory won't open the files to read the schema. Instead, Data Factory will treat each file as binary and copy it to the other location."
+140,Azure Data Factory,Synonym,"When duplicating a pipeline, you get a ""DelimitedTextMoreColumnsThanDefined"" problem.",Same as the above
+141,Azure Data Factory,Synonym,"A ""DelimitedTextMoreColumnsThanDefined"" problem appears when you copy a pipeline.",Same as the above
+142,Azure Data Factory,Synonym,"When copying a pipeline, you get the error ""DelimitedTextMoreColumnsThanDefined""",Same as the above
+143,Azure Data Factory,Synonym,"When you copy a pipeline, you get a ""DelimitedTextMoreColumnsThanDefined"" problem.",Same as the above
+144,Azure Data Factory,Synonym,"You encounter a ""DelimitedTextMoreColumnsThanDefined"" issue when duplicating a pipeline.",Same as the above
+145,Azure Data Factory,Original,A pipeline run fails when you reach the capacity limit of the integration runtime for data flow,"Run your pipelines at different trigger times.
+Create a new integration runtime, and split your pipelines across multiple integration runtimes."
+146,Azure Data Factory,Synonym,"When the integration runtime for data flow reaches its capacity limit, a pipeline run fails.",Same as the above
+147,Azure Data Factory,Synonym,"When you exceed the integration runtime for data flow's capacity, a pipeline run fails.",Same as the above
+148,Azure Data Factory,Synonym,"Once the integration runtime for data flow reaches its capacity limit, a pipeline run fails.",Same as the above
+149,Azure Data Factory,Synonym,A pipeline run fails when the capacity of the integration runtime for data flow is exceeded.,Same as the above
+150,Azure Data Factory,Synonym,"When the data flow capacity of the integration runtime is exceeded, a pipeline run fails.",Same as the above
+151,Azure Data Factory,Original,A pipeline run error while invoking REST api in a Web activity,"Before using the Azure Data Factory’s REST API in a Web activity’s Settings tab, security must be configured. Azure Data Factory pipelines may use the Web activity to call ADF REST API methods if and only if the Azure Data Factory managed identity is assigned the Contributor role. Begin by opening the Azure portal and clicking the All resources link on the left menu. Select Azure Data Factory to add ADF managed identity with Contributor role by clicking the Add button in the Add a role assignment box."
+152,Azure Data Factory,Synonym,A pipeline run problem occurred when a Web activity called the REST api.,Same as the above
+153,Azure Data Factory,Synonym,A Web activity that invokes the REST API encounters a pipeline run error,Same as the above
+154,Azure Data Factory,Synonym,When a Web activity calls the REST API and encounters a pipeline run error,Same as the above
+155,Azure Data Factory,Synonym,Any time a Web activity uses the REST API and runs into a pipeline execution error,Same as the above
+156,Azure Data Factory,Synonym,In the event that a Web activity accesses the REST API and runs into a pipeline run error,Same as the above
+157,Azure Data Factory,Original,How to check and branch on activity-level success and failure in pipelines,"Implement activity-level checks by following How to handle pipeline failures and errors.
+Use Azure Logic Apps to monitor pipelines in regular intervals following Query By Factory.
+Visually Monitor Pipeline"
+158,Azure Data Factory,Synonym,How to branch and check pipelines for activity-level success and failure,Same as the above
+159,Azure Data Factory,Synonym,How to branch on pipelines that have successful and unsuccessful activities at the activity level,Same as the above
+160,Azure Data Factory,Synonym,How to split pipelines based on the success or failure of individual activities,Same as the above
+161,Azure Data Factory,Synonym,How to make a pipeline branch based on the activity level success and failure of activities,Same as the above
+162,Azure Data Factory,Synonym,How to create a pipeline branch based on the success or failure of activities at the activity level,Same as the above
+163,Azure Data Factory,Original,How to monitor pipeline failures in regular intervals,"You can set up an Azure logic app to query all of the failed pipelines every 5 minutes, as described in Query By Factory. Then, you can report incidents to your ticketing system.
+You can rerun pipelines and activities as described here.
+You can rerun activities if you had canceled activity or had a failure as per Rerun from activity failures.
+Visually Monitor Pipeline"
+164,Azure Data Factory,Synonym,How to regularly check for pipeline faults,Same as the above
+165,Azure Data Factory,Synonym,How to systematically keep track of pipeline breakdowns,Same as the above
+166,Azure Data Factory,Synonym,How to routinely monitor pipeline malfunctions,Same as the above
+167,Azure Data Factory,Synonym,How to regularly check for pipeline issues,Same as the above
+168,Azure Data Factory,Synonym,How to routinely check for pipeline concerns,Same as the above
+169,Azure Data Factory,Original,Degree of parallelism increase does not result in higher throughput,"You should not use SetVariable activity inside For Each that runs in parallel.
+Taking in consideration the way the queues are constructed, customer can improve the foreach performance by setting multiples of foreach where each foreach will have items with similar processing time.
+This will ensure that long runs are processed in parallel rather sequentially."
+170,Azure Data Factory,Synonym,Increasing the degree of parallelism has little impact on throughput.,Same as the above
+171,Azure Data Factory,Synonym,Increased parallelism does not translate into increased throughput.,Same as the above
+172,Azure Data Factory,Synonym,Throughput does not increase as the degree of parallelism increases.,Same as the above
+173,Azure Data Factory,Synonym,An increase in the degree of parallelism has no impact on throughput.,Same as the above
+174,Azure Data Factory,Synonym,"As the level of parallelism rises, throughput does not increase.",Same as the above
+175,Azure Data Factory,Original,There is an issue : Pipeline status is queued or stuck for a long time,"Concurrency Limit: If your pipeline has a concurrency policy, verify that there are no old pipeline runs in progress.
+
+Monitoring limits: Go to the ADF authoring canvas, select your pipeline, and determine if it has a concurrency property assigned to it. If it does, go to the Monitoring view, and make sure there's nothing in the past 45 days that's in progress. If there is something in progress, you can cancel it and the new pipeline run should start."
+176,Azure Data Factory,Synonym,There is a problem: Pipeline status is backed up or has been for a while.,Same as the above
+177,Azure Data Factory,Synonym,There is a issue: The pipeline status has been backed up or is persistently stuck.,Same as the above
+178,Azure Data Factory,Synonym,There is a error: Pipeline status is queued or stuck for a while.,Same as the above
+179,Azure Data Factory,Synonym,"Pipeline status is in a backlog or has been stuck for a time, which is an issue.",Same as the above
+180,Azure Data Factory,Synonym,Pipeline status is delayed in queue or is currently unavailable.,Same as the above
