@@ -101,9 +101,9 @@ var embedConfig = {
 Or
 You could add &language=en and &formatlocale=en parameters to the embed URL
 https://powerbiembedurl&language=en&formatlocale=en"
-38,,Synonym ,"Why Power bi date slicer calendar month/days are showing different language other than English. it’s looks like Spanish language.
+38,PowerBI,Synonym ,"Why Power bi date slicer calendar month/days are showing different language other than English. it’s looks like Spanish language.
 ",Same as above
-39,,Synonym ,Is there any way to change the language from Spanish to English language  in Power bi date slicer calendar month/days?,Same as above
+39,PowerBI,Synonym ,Is there any way to change the language from Spanish to English language  in Power bi date slicer calendar month/days?,Same as above
 40,PowerBI,Synonym ,"I'm having an issue with the language settings in the Power BI date slicer - it's showing calendar month and days in a language other than English. What could be causing this, and how can I change it?",Same as above
 41,PowerBI,Synonym ,"Is there a way to ensure that the Power BI date slicer displays calendar 
 month and days in English, even if my computer or browser is set to a different language?",Same as above
